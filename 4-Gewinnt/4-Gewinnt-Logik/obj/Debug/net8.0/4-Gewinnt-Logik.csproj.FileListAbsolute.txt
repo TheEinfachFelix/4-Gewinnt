@@ -1,0 +1,12 @@
+C:\Github\4-Gewinnt\4-Gewinnt\4-Gewinnt-Logik\bin\Debug\net8.0\4-Gewinnt-Logik.deps.json
+C:\Github\4-Gewinnt\4-Gewinnt\4-Gewinnt-Logik\bin\Debug\net8.0\4-Gewinnt-Logik.dll
+C:\Github\4-Gewinnt\4-Gewinnt\4-Gewinnt-Logik\bin\Debug\net8.0\4-Gewinnt-Logik.pdb
+C:\Github\4-Gewinnt\4-Gewinnt\4-Gewinnt-Logik\obj\Debug\net8.0\4-Gewinnt-Logik.GeneratedMSBuildEditorConfig.editorconfig
+C:\Github\4-Gewinnt\4-Gewinnt\4-Gewinnt-Logik\obj\Debug\net8.0\4-Gewinnt-Logik.AssemblyInfoInputs.cache
+C:\Github\4-Gewinnt\4-Gewinnt\4-Gewinnt-Logik\obj\Debug\net8.0\4-Gewinnt-Logik.AssemblyInfo.cs
+C:\Github\4-Gewinnt\4-Gewinnt\4-Gewinnt-Logik\obj\Debug\net8.0\4-Gewinnt-Logik.csproj.CoreCompileInputs.cache
+C:\Github\4-Gewinnt\4-Gewinnt\4-Gewinnt-Logik\obj\Debug\net8.0\4-Gewinnt-Logik.sourcelink.json
+C:\Github\4-Gewinnt\4-Gewinnt\4-Gewinnt-Logik\obj\Debug\net8.0\4-Gewinnt-Logik.dll
+C:\Github\4-Gewinnt\4-Gewinnt\4-Gewinnt-Logik\obj\Debug\net8.0\refint\4-Gewinnt-Logik.dll
+C:\Github\4-Gewinnt\4-Gewinnt\4-Gewinnt-Logik\obj\Debug\net8.0\4-Gewinnt-Logik.pdb
+C:\Github\4-Gewinnt\4-Gewinnt\4-Gewinnt-Logik\obj\Debug\net8.0\ref\4-Gewinnt-Logik.dll

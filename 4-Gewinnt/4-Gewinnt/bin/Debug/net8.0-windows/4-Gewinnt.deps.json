@@ -1,0 +1,39 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "4-Gewinnt/1.0.0": {
+        "dependencies": {
+          "4-Gewinnt-Logik": "1.0.0"
+        },
+        "runtime": {
+          "4-Gewinnt.dll": {}
+        }
+      },
+      "4-Gewinnt-Logik/1.0.0": {
+        "runtime": {
+          "4-Gewinnt-Logik.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "4-Gewinnt/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "4-Gewinnt-Logik/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
