@@ -1,5 +1,7 @@
 ﻿using _4_Gewinnt_Logik;
+using _4_Gewinnt_MiniMax;
 using System;
+using System.Net.NetworkInformation;
 using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Media;
@@ -15,17 +17,24 @@ namespace _4_Gewinnt_WPF
         private readonly Ellipse[,] cellVisuals;
         private int xLen;
         private int yLen;
+        private AI ai;
 
         public GameController(Grid boardGrid, int xLen, int yLen)
         {
             this.boardGrid = boardGrid;
-            logic = new LogicMaster(xLen, yLen);
-            logic.OnWin += HandleWin;
             this.xLen = xLen;
             this.yLen = yLen;
+            newGame();
 
             cellVisuals = new Ellipse[xLen, yLen];
             CreateBoardVisuals(xLen, yLen);
+        }
+
+        private void newGame()
+        {
+            logic = new LogicMaster(xLen, yLen);
+            logic.OnWin += HandleWin;
+            ai = new(logic, 2, 0);
         }
 
         private void CreateBoardVisuals(int xLen, int yLen)
@@ -83,7 +92,10 @@ namespace _4_Gewinnt_WPF
                 {
                     logic.Play(x, currentPlayer);
                     UpdateBoard();
-                    currentPlayer = currentPlayer == 1 ? 2 : 1;
+                    Thread.Sleep(500);
+                    ai.makeMove();
+                    UpdateBoard();
+                    //currentPlayer = currentPlayer == 1 ? 2 : 1;
                 }
                 catch (Exception ex)
                 {
@@ -118,8 +130,7 @@ namespace _4_Gewinnt_WPF
             "Ende",
             MessageBoxButton.OK);
 
-            logic = new LogicMaster(xLen, yLen);
-            logic.OnWin += HandleWin;
+            newGame();
 
         }
     }

@@ -22,3 +22,5 @@ C:\Github\4-Gewinnt\4-Gewinnt\4-Gewinnt\obj\Debug\net8.0-windows\4-Gewinnt.cspro
 C:\Github\4-Gewinnt\4-Gewinnt\4-Gewinnt\bin\Debug\net8.0-windows\4-Gewinnt-Logik.dll
 C:\Github\4-Gewinnt\4-Gewinnt\4-Gewinnt\bin\Debug\net8.0-windows\4-Gewinnt-Logik.pdb
 C:\Github\4-Gewinnt\4-Gewinnt\4-Gewinnt\obj\Debug\net8.0-windows\4-Gewinnt.csproj.Up2Date
+C:\Github\4-Gewinnt\4-Gewinnt\4-Gewinnt\bin\Debug\net8.0-windows\4-Gewinnt-MiniMax.dll
+C:\Github\4-Gewinnt\4-Gewinnt\4-Gewinnt\bin\Debug\net8.0-windows\4-Gewinnt-MiniMax.pdb

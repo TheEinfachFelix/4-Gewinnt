@@ -11,6 +11,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\4-Gewinnt-Logik\4-Gewinnt-Logik.csproj" />
+    <ProjectReference Include="..\4-Gewinnt-MiniMax\4-Gewinnt-MiniMax.csproj" />
   </ItemGroup>
 
 </Project>

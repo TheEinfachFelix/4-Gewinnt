@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.11.35312.102
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "4-Gewinnt", "4-Gewinnt\4-Gewinnt.csproj", "{F50AA275-C71B-449E-8E17-7AAD3371FB54}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "4-Gewinnt", "4-Gewinnt\4-Gewinnt.csproj", "{F50AA275-C71B-449E-8E17-7AAD3371FB54}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "4-Gewinnt-Logik", "4-Gewinnt-Logik\4-Gewinnt-Logik.csproj", "{B60A0F39-61D0-4E38-90F7-05B7C179A740}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "4-Gewinnt-Logik", "4-Gewinnt-Logik\4-Gewinnt-Logik.csproj", "{B60A0F39-61D0-4E38-90F7-05B7C179A740}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "4-Gewinnt-MiniMax", "4-Gewinnt-MiniMax\4-Gewinnt-MiniMax.csproj", "{5B009B21-6DF6-4E2B-A7E0-A27842B44A00}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{B60A0F39-61D0-4E38-90F7-05B7C179A740}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B60A0F39-61D0-4E38-90F7-05B7C179A740}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B60A0F39-61D0-4E38-90F7-05B7C179A740}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5B009B21-6DF6-4E2B-A7E0-A27842B44A00}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5B009B21-6DF6-4E2B-A7E0-A27842B44A00}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5B009B21-6DF6-4E2B-A7E0-A27842B44A00}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5B009B21-6DF6-4E2B-A7E0-A27842B44A00}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -1,4 +1,6 @@
-﻿namespace _4_Gewinnt_Logik
+﻿using System.Numerics;
+
+namespace _4_Gewinnt_Logik
 {
     public class LogicMaster
     {
@@ -27,19 +29,27 @@
         public void Play(int X, int Player)
         {
             if (X < 0 || X >= Xlen)
-                throw new ArgumentOutOfRangeException("X or Y is out of range");
-            int Y = GetLowestFreeRow(X);
+                throw new ArgumentOutOfRangeException("X is out of range");
+            int Y = GetFreeYforX(X);
             if (Y == -1)
                 throw new InvalidOperationException("Column is full");
             if (GameField[X][Y] != 0)
                 throw new InvalidOperationException("Field is already occupied");
 
-            GameField[X][Y] = Player;
+            SetField(X, Y, Player);
             CheckWinner();
+            OnWin?.Invoke(player);
+        }
+
+        public void SetField(int X, int Y, int Player)
+        {
+            if (X < 0 || X >= Xlen || Y < 0 || Y >= Ylen)
+                throw new ArgumentOutOfRangeException("X or Y is out of range");
+            GameField[X][Y] = Player;
         }
 
 
-        private int GetLowestFreeRow(int X)
+        public int GetFreeYforX(int X)
         {
             for (int Y = Ylen-1; Y >= 0; Y--)
             {
@@ -49,7 +59,7 @@
             return -1;
         }
 
-        private int CheckWinner()
+        public int CheckWinner()
         {
             for (int x = 0; x < Xlen; x++)
             {
@@ -65,7 +75,6 @@
                         GameField[x + 2][y] == player &&
                         GameField[x + 3][y] == player)
                     {
-                        OnWin?.Invoke(player);
                         return player;
                     }
 
@@ -75,7 +84,6 @@
                         GameField[x][y + 2] == player &&
                         GameField[x][y + 3] == player)
                     {
-                        OnWin?.Invoke(player);
                         return player;
                     }
 
@@ -85,7 +93,6 @@
                         GameField[x + 2][y + 2] == player &&
                         GameField[x + 3][y + 3] == player)
                     {
-                        OnWin?.Invoke(player);
                         return player;
                     }
 
@@ -95,7 +102,6 @@
                         GameField[x - 2][y + 2] == player &&
                         GameField[x - 3][y + 3] == player)
                     {
-                        OnWin?.Invoke(player);
                         return player;
                     }
                 }
