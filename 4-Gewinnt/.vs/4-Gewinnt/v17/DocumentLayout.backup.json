@@ -30,11 +30,15 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
             },
             {
               "$type": "Document",
@@ -42,9 +46,9 @@
               "Title": "4-Gewinnt-Logik.cs",
               "DocumentMoniker": "C:\\Github\\4-Gewinnt\\4-Gewinnt\\4-Gewinnt-Logik\\4-Gewinnt-Logik.cs",
               "RelativeDocumentMoniker": "4-Gewinnt-Logik\\4-Gewinnt-Logik.cs",
-              "ToolTip": "C:\\Github\\4-Gewinnt\\4-Gewinnt\\4-Gewinnt-Logik\\4-Gewinnt-Logik.cs",
-              "RelativeToolTip": "4-Gewinnt-Logik\\4-Gewinnt-Logik.cs",
-              "ViewState": "AgIAAEkAAAAAAAAAAADwv1YAAAAAAAAAAAAAAA==",
+              "ToolTip": "C:\\Github\\4-Gewinnt\\4-Gewinnt\\4-Gewinnt-Logik\\4-Gewinnt-Logik.cs*",
+              "RelativeToolTip": "4-Gewinnt-Logik\\4-Gewinnt-Logik.cs*",
+              "ViewState": "AgIAAE0AAAAAAAAAAAAywFgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-05T10:02:37.126Z",
               "EditorCaption": ""
@@ -57,7 +61,7 @@
               "RelativeDocumentMoniker": "4-Gewinnt-MiniMax\\AI.cs",
               "ToolTip": "C:\\Github\\4-Gewinnt\\4-Gewinnt\\4-Gewinnt-MiniMax\\AI.cs*",
               "RelativeToolTip": "4-Gewinnt-MiniMax\\AI.cs*",
-              "ViewState": "AgIAAGAAAAAAAAAAAAAAAGwAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-06T08:12:14.429Z",
               "EditorCaption": ""
@@ -72,8 +76,7 @@
               "RelativeToolTip": "4-Gewinnt\\GameController.cs",
               "ViewState": "AgIAAA4AAAAAAAAAAAAIwCIAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-05T10:26:37.006Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-05T10:26:37.006Z"
             },
             {
               "$type": "Document",

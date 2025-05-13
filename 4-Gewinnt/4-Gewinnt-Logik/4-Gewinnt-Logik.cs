@@ -1,5 +1,4 @@
 ﻿using System.Diagnostics;
-using System.Numerics;
 
 namespace _4_Gewinnt_Logik
 {
@@ -81,10 +80,10 @@ namespace _4_Gewinnt_Logik
             {
                 for (int y = 0; y < Ylen; y++)
                 {
+                    
                     int player = GameField[x][y];
                     if (player == 0)
                         continue;
-
                     // Horizontal
                     if (x + 3 < Xlen &&
                         GameField[x + 1][y] == player &&

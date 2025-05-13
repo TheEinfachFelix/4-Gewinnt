@@ -35,7 +35,7 @@ namespace _4_Gewinnt_MiniMax
                 {
                     
                     myGame.SetField(X, Y, myMarker);
-                    int moveValue = MiniMax(maxDepth, false);
+                    int moveValue = MiniMax(maxDepth, false, int.MinValue, int.MaxValue);
                     myGame.SetField(X, Y, emtyMarker);
 
                     if(moveValue >= bestValue)
@@ -49,13 +49,12 @@ namespace _4_Gewinnt_MiniMax
             return bestMove;
         }
 
-        private int MiniMax(int Depth, bool isMax)
+        private int MiniMax(int depth, bool isMax, int alpha, int beta)
         {
             int boardVal = bewerten();
-            if (Math.Abs(boardVal) == 10 || Depth == 0)
-            {
+            if (Math.Abs(boardVal) == 10 || depth == 0)
                 return boardVal;
-            }
+
             if (isMax)
             {
                 int best = int.MinValue;
@@ -65,8 +64,12 @@ namespace _4_Gewinnt_MiniMax
                     if (Y >= 0)
                     {
                         myGame.SetField(X, Y, myMarker);
-                        best = Math.Max(best, MiniMax(Depth - 1, false));
+                        int value = MiniMax(depth - 1, false, alpha, beta);
                         myGame.SetField(X, Y, emtyMarker);
+                        best = Math.Max(best, value);
+                        alpha = Math.Max(alpha, best);
+                        if (beta <= alpha)
+                            break; // Pruning
                     }
                 }
                 return best;
@@ -80,8 +83,12 @@ namespace _4_Gewinnt_MiniMax
                     if (Y >= 0)
                     {
                         myGame.SetField(X, Y, enimyMarker);
-                        best = Math.Min(best, MiniMax(Depth - 1, true));
+                        int value = MiniMax(depth - 1, true, alpha, beta);
                         myGame.SetField(X, Y, emtyMarker);
+                        best = Math.Min(best, value);
+                        beta = Math.Min(beta, best);
+                        if (beta <= alpha)
+                            break; // Pruning
                     }
                 }
                 return best;
@@ -109,8 +116,8 @@ namespace _4_Gewinnt_MiniMax
 }
 
 // for i in Xlen 7
-// for i in range(maxdepth): 6
-// for i in XLen 7
+// Minimax ()
+// XLen 7^maxdepth6
 // CheckWinner
 // for i in XLen 7
 // for i in YLen 6
