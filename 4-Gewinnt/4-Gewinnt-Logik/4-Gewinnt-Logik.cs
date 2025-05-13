@@ -1,4 +1,5 @@
-﻿using System.Numerics;
+﻿using System.Diagnostics;
+using System.Numerics;
 
 namespace _4_Gewinnt_Logik
 {
@@ -25,6 +26,19 @@ namespace _4_Gewinnt_Logik
             }
         }
 
+        public void debug_Field()
+        {
+            Debug.WriteLine("Start-");
+            for (int Y = Ylen - 1; Y >= 0; Y--)
+            {
+                for (int X = 0; X < Xlen; X++)
+                {
+                    Debug.Write(GameField[X][Y] + " ");
+                }
+                Debug.WriteLine("");
+            }
+            Debug.WriteLine("-End");
+        }
 
         public void Play(int X, int Player)
         {
@@ -37,8 +51,9 @@ namespace _4_Gewinnt_Logik
                 throw new InvalidOperationException("Field is already occupied");
 
             SetField(X, Y, Player);
-            CheckWinner();
-            OnWin?.Invoke(player);
+            int player = CheckWinner();
+            if (player != -1)
+                OnWin?.Invoke(player);
         }
 
         public void SetField(int X, int Y, int Player)
@@ -61,6 +76,7 @@ namespace _4_Gewinnt_Logik
 
         public int CheckWinner()
         {
+            //debug_Field();
             for (int x = 0; x < Xlen; x++)
             {
                 for (int y = 0; y < Ylen; y++)

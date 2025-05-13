@@ -1,5 +1,6 @@
 ﻿using _4_Gewinnt_Logik;
 using System.ComponentModel;
+using System.Diagnostics;
 
 namespace _4_Gewinnt_MiniMax
 {
@@ -8,19 +9,20 @@ namespace _4_Gewinnt_MiniMax
         private LogicMaster myGame;
         private int myMarker;
         private int emtyMarker;
-        private readonly int maxDepth = 15;
-        public AI(LogicMaster game, int myMarker, int emtyMarker)
+        private int enimyMarker;
+        private readonly int maxDepth = 6;
+        public AI(LogicMaster game, int myMarker,int enimyMarker, int emtyMarker)
         {
             myGame = game;
             this.myMarker = myMarker;
             this.emtyMarker = emtyMarker;
+            this.enimyMarker = enimyMarker;
         }
 
         public void makeMove()
         {
             List<int> move = getBestMove();
             myGame.Play(move[0], myMarker);
-            //myGame.SetField(move[0], move[1], myMarker);
         }
         private List<int> getBestMove()
         {
@@ -36,7 +38,7 @@ namespace _4_Gewinnt_MiniMax
                     int moveValue = MiniMax(maxDepth, false);
                     myGame.SetField(X, Y, emtyMarker);
 
-                    if(moveValue > bestValue)
+                    if(moveValue >= bestValue)
                     {
                         bestValue = moveValue;
                         bestMove[0] = X;
@@ -77,7 +79,7 @@ namespace _4_Gewinnt_MiniMax
                     int Y = myGame.GetFreeYforX(X);
                     if (Y >= 0)
                     {
-                        myGame.SetField(X, Y, emtyMarker);
+                        myGame.SetField(X, Y, enimyMarker);
                         best = Math.Min(best, MiniMax(Depth - 1, true));
                         myGame.SetField(X, Y, emtyMarker);
                     }
@@ -89,6 +91,7 @@ namespace _4_Gewinnt_MiniMax
         private int bewerten()
         {
             int val = myGame.CheckWinner();
+
             if (val == myMarker)
             {
                 return 10;
@@ -104,3 +107,10 @@ namespace _4_Gewinnt_MiniMax
         }
     }
 }
+
+// for i in Xlen 7
+// for i in range(maxdepth): 6
+// for i in XLen 7
+// CheckWinner
+// for i in XLen 7
+// for i in YLen 6

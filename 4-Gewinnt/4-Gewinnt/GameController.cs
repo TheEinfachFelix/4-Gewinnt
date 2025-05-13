@@ -34,7 +34,7 @@ namespace _4_Gewinnt_WPF
         {
             logic = new LogicMaster(xLen, yLen);
             logic.OnWin += HandleWin;
-            ai = new(logic, 2, 0);
+            ai = new(logic, 2,1, 0);
         }
 
         private void CreateBoardVisuals(int xLen, int yLen)
