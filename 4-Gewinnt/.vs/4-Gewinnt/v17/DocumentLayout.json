@@ -7,16 +7,16 @@
       "RelativeMoniker": "D:0:0:{5B009B21-6DF6-4E2B-A7E0-A27842B44A00}|4-Gewinnt-MiniMax\\4-Gewinnt-MiniMax.csproj|solutionrelative:4-gewinnt-minimax\\ai.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{F50AA275-C71B-449E-8E17-7AAD3371FB54}|4-Gewinnt\\4-Gewinnt.csproj|c:\\github\\4-gewinnt\\4-gewinnt\\4-gewinnt\\gamecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F50AA275-C71B-449E-8E17-7AAD3371FB54}|4-Gewinnt\\4-Gewinnt.csproj|solutionrelative:4-gewinnt\\gamecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{B60A0F39-61D0-4E38-90F7-05B7C179A740}|4-Gewinnt-Logik\\4-Gewinnt-Logik.csproj|c:\\github\\4-gewinnt\\4-gewinnt\\4-gewinnt-logik\\4-gewinnt-logik.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B60A0F39-61D0-4E38-90F7-05B7C179A740}|4-Gewinnt-Logik\\4-Gewinnt-Logik.csproj|solutionrelative:4-gewinnt-logik\\4-gewinnt-logik.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F50AA275-C71B-449E-8E17-7AAD3371FB54}|4-Gewinnt\\4-Gewinnt.csproj|c:\\github\\4-gewinnt\\4-gewinnt\\4-gewinnt\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F50AA275-C71B-449E-8E17-7AAD3371FB54}|4-Gewinnt\\4-Gewinnt.csproj|solutionrelative:4-gewinnt\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F50AA275-C71B-449E-8E17-7AAD3371FB54}|4-Gewinnt\\4-Gewinnt.csproj|c:\\github\\4-gewinnt\\4-gewinnt\\4-gewinnt\\gamecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F50AA275-C71B-449E-8E17-7AAD3371FB54}|4-Gewinnt\\4-Gewinnt.csproj|solutionrelative:4-gewinnt\\gamecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F50AA275-C71B-449E-8E17-7AAD3371FB54}|4-Gewinnt\\4-Gewinnt.csproj|c:\\github\\4-gewinnt\\4-gewinnt\\4-gewinnt\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
@@ -42,15 +42,16 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "4-Gewinnt-Logik.cs",
               "DocumentMoniker": "C:\\Github\\4-Gewinnt\\4-Gewinnt\\4-Gewinnt-Logik\\4-Gewinnt-Logik.cs",
               "RelativeDocumentMoniker": "4-Gewinnt-Logik\\4-Gewinnt-Logik.cs",
               "ToolTip": "C:\\Github\\4-Gewinnt\\4-Gewinnt\\4-Gewinnt-Logik\\4-Gewinnt-Logik.cs",
               "RelativeToolTip": "4-Gewinnt-Logik\\4-Gewinnt-Logik.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAoAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-05T10:02:37.126Z"
+              "WhenOpened": "2025-05-05T10:02:37.126Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -60,22 +61,23 @@
               "RelativeDocumentMoniker": "4-Gewinnt-MiniMax\\AI.cs",
               "ToolTip": "C:\\Github\\4-Gewinnt\\4-Gewinnt\\4-Gewinnt-MiniMax\\AI.cs",
               "RelativeToolTip": "4-Gewinnt-MiniMax\\AI.cs",
-              "ViewState": "AgIAAGkAAAAAAAAAAAAAAHgAAAADAAAAAAAAAA==",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAgwCYAAAA2AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-06T08:12:14.429Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "GameController.cs",
               "DocumentMoniker": "C:\\Github\\4-Gewinnt\\4-Gewinnt\\4-Gewinnt\\GameController.cs",
               "RelativeDocumentMoniker": "4-Gewinnt\\GameController.cs",
               "ToolTip": "C:\\Github\\4-Gewinnt\\4-Gewinnt\\4-Gewinnt\\GameController.cs",
               "RelativeToolTip": "4-Gewinnt\\GameController.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAIwCIAAAAoAAAAAAAAAA==",
+              "ViewState": "AgIAAHsAAAAAAAAAAAAowCIAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-05T10:26:37.006Z"
+              "WhenOpened": "2025-05-05T10:26:37.006Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -90,15 +92,16 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "MainWindow.xaml.cs",
               "DocumentMoniker": "C:\\Github\\4-Gewinnt\\4-Gewinnt\\4-Gewinnt\\MainWindow.xaml.cs",
               "RelativeDocumentMoniker": "4-Gewinnt\\MainWindow.xaml.cs",
               "ToolTip": "C:\\Github\\4-Gewinnt\\4-Gewinnt\\4-Gewinnt\\MainWindow.xaml.cs",
               "RelativeToolTip": "4-Gewinnt\\MainWindow.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAA9AAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-05T10:00:37.4Z"
+              "WhenOpened": "2025-05-05T10:00:37.4Z",
+              "EditorCaption": ""
             }
           ]
         }
