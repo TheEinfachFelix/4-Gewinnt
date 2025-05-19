@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("4-Gewinnt-Logik")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+702ab0bf36be41794922ee18997f153097e1eb63")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+11fcfbaebf2f11b632b0b248fe5a4ede3c7720cc")]
 [assembly: System.Reflection.AssemblyProductAttribute("4-Gewinnt-Logik")]
 [assembly: System.Reflection.AssemblyTitleAttribute("4-Gewinnt-Logik")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -30,15 +30,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
             },
             {
               "$type": "Document",
@@ -46,12 +42,11 @@
               "Title": "4-Gewinnt-Logik.cs",
               "DocumentMoniker": "C:\\Github\\4-Gewinnt\\4-Gewinnt\\4-Gewinnt-Logik\\4-Gewinnt-Logik.cs",
               "RelativeDocumentMoniker": "4-Gewinnt-Logik\\4-Gewinnt-Logik.cs",
-              "ToolTip": "C:\\Github\\4-Gewinnt\\4-Gewinnt\\4-Gewinnt-Logik\\4-Gewinnt-Logik.cs*",
-              "RelativeToolTip": "4-Gewinnt-Logik\\4-Gewinnt-Logik.cs*",
-              "ViewState": "AgIAAE0AAAAAAAAAAAAywFgAAAAAAAAAAAAAAA==",
+              "ToolTip": "C:\\Github\\4-Gewinnt\\4-Gewinnt\\4-Gewinnt-Logik\\4-Gewinnt-Logik.cs",
+              "RelativeToolTip": "4-Gewinnt-Logik\\4-Gewinnt-Logik.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-05T10:02:37.126Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-05T10:02:37.126Z"
             },
             {
               "$type": "Document",
@@ -59,9 +54,9 @@
               "Title": "AI.cs",
               "DocumentMoniker": "C:\\Github\\4-Gewinnt\\4-Gewinnt\\4-Gewinnt-MiniMax\\AI.cs",
               "RelativeDocumentMoniker": "4-Gewinnt-MiniMax\\AI.cs",
-              "ToolTip": "C:\\Github\\4-Gewinnt\\4-Gewinnt\\4-Gewinnt-MiniMax\\AI.cs*",
-              "RelativeToolTip": "4-Gewinnt-MiniMax\\AI.cs*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGQAAAAAAAAAAAAAAA==",
+              "ToolTip": "C:\\Github\\4-Gewinnt\\4-Gewinnt\\4-Gewinnt-MiniMax\\AI.cs",
+              "RelativeToolTip": "4-Gewinnt-MiniMax\\AI.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAwAwAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-06T08:12:14.429Z",
               "EditorCaption": ""
@@ -99,8 +94,11 @@
               "RelativeToolTip": "4-Gewinnt\\MainWindow.xaml.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAA9AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-05T10:00:37.4Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-05T10:00:37.4Z"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
             }
           ]
         }
